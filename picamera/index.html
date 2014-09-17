@@ -1,0 +1,26 @@
+<html>
+<title>HTML5 video test page</title>
+<body>
+    connection to 192.168.0.30 port 5000 for video:
+    <br />
+    <video autoplay width="640" height="480" controls>
+        <source src="http://192.168.0.30:5000" />
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
+<!-- 
+
+<video src="http://192.168.0.30:5000" width="640" height="480" controls>
+    Your browser does not support the VIDEO tag and/or RTP streams.
+</video>
+
+raspivid -t 0 -h 720 -w 1080 -fps 25 -hf -b 2000000 -o - | 
+gst-launch-1.0 -v fdsrc ! h264parse ! rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=192.168.0.30 port=5000
+
+raspivid -t 0 -h 720 -w 1080 -fps 25 -hf -b 2000000 -o - | 
+gst-launch-1.0 -v fdsrc ! h264parse ! rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=192.168.0.30 port=5000
+
+raspivid -t 0 -h 720 -w 144 -fps 25 -hf -b 2000000 -o - | gst-launch-1.0 -v fdsrc ! h264parse, framerate=1/5, width=256, height=144 ! multipartmux  boundary="--videoboundary" ! tcpserversink host=192.168.0.30 port=5000
+
+-->

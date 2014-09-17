@@ -1,0 +1,130 @@
+Sep 16, 2014:
+______________________________________________________________________________
+most of this worked on mac:
+http://www.secdev.org/projects/scapy/demo.html
+
+______________________________________________________________________________
+installed scapy + dependencies on Mac OS X:
+see: http://juhalaaksonen.com/blog/2013/12/11/installing-scapy-for-mac-os-x/
+Installing Scapy for Mac OS X
+Dec 11th, 2013 | COMMENTS
+What is Scapy?
+
+Scapy is a tool, written in Python, for manipulating network packets. 
+It can be used for capturing packets, forging them and decoding them. 
+And that is just the tip of the iceberg, there are also a lot of other 
+network related tasks that Scapy can handle, but that is out of the scope for this tutorial. 
+For now, lets just focus on getting Scapy installed and running!
+
+Installation & Dependencies
+
+Installing Scapy itself from sources is a pretty straightforward for all 
+Unix-like operating systems, like Mac OS X in this case. 
+Installing additional libraries/dependencies is another thing. 
+Although they are usually easy to intall, but there might be quite a few 
+of them to missing by default depending on your OS, but lets get back to that in a moment.
+
+First make sure that you have Python installed (should be installed as default on Mac OS X), 
+which you can do by running python --version in terminal.
+
+Now you can download the latest version of scapy, unzip it and install it:
+
+$ wget scapy.net
+$ unzip scapy-latest.zip
+$ cd scapy-2.*
+$ sudo python setup.py install
+And that is basically it… if you’re very lucky and have all the additional 
+libraries and dependencies already installed for some reason. 
+Which in my case weren’t installed.
+So trying to run Scapy for the first time gave me a bunch of info notifications 
+and errors about missing libraries and modules:
+
+$ scapy
+INFO: Can't import python gnuplot wrapper . Won't be able to plot.
+INFO: Can't import PyX. Won't be able to use psdump() or pdfdump().
+ERROR: Unable to import pcap module: No module named pcap/No module named pcapy
+ERROR: Unable to import dnet module: No module named dnet
+Traceback (most recent call last):
+  File "/usr/local/bin/scapy", line 25, in <module>
+    interact()
+  File "/Library/Python/2.7/site-packages/scapy/main.py", line 278, in interact
+    scapy_builtins = __import__("all",globals(),locals(),".").__dict__
+  File "/Library/Python/2.7/site-packages/scapy/all.py", line 28, in <module>
+    from route6 import *
+  File "/Library/Python/2.7/site-packages/scapy/route6.py", line 267, in <module>
+    conf.route6 = Route6()
+  File "/Library/Python/2.7/site-packages/scapy/route6.py", line 29, in __init__
+    self.resync()
+  File "/Library/Python/2.7/site-packages/scapy/route6.py", line 42, in resync
+    self.routes = read_routes6()
+  File "/Library/Python/2.7/site-packages/scapy/arch/unix.py", line 150, in read_routes6
+    lifaddr = in6_getifaddr()
+  File "/Library/Python/2.7/site-packages/scapy/arch/unix.py", line 126, in in6_getifaddr
+    i = dnet.intf()
+NameError: global name 'dnet' is not defined
+By looking at the ‘NameError’ on the last line I figured that I should probably 
+install at least the ‘dnet’ module in order to be even able to run Scapy 
+(which I later noticed in the Scapy installation docs also). 
+So if you encounter the same issue, here’s how to get past that:
+
+Edit: on Mac OS X you also need to have Xcode and its Command Line Tools 
+installed in order to build ‘dnet’ from sources, because running make command uses gcc compiler. Make sure to have those installed before proceding to the next part!
+
+$ wget http://libdnet.googlecode.com/files/libdnet-1.12.tgz
+$ tar xfz libdnet-1.12.tgz
+$ ./configure
+$ make
+$ sudo make install
+$ cd python
+$ sudo python setup.py install
+Next thing is to install the ‘pcap’ module to get rid of the other ‘ERROR’ line:
+
+$ wget http://dfn.dl.sourceforge.net/sourceforge/pylibpcap/pylibpcap-0.6.4.tar.gz
+$ tar xfz pylibpcap-0.6.4.tar.gz
+$ cd pylibpcap-0.6.4
+$ sudo python setup.py install
+Now that the necessary modules were installed I tried to run Scapy again 
+and for my delight all the errors were gone and Scapy was able to run. 
+But there were still some info notifications about missing libraries that 
+couldn’t be imported, which meant that all of the functionalities of Scapy would not work.
+
+$ scapy
+INFO: Can't import python gnuplot wrapper . Won't be able to plot.
+INFO: Can't import PyX. Won't be able to use psdump() or pdfdump().
+WARNING: No route found for IPv6 destination :: (no default route?)
+INFO: Can't import python Crypto lib. Won't be able to decrypt WEP.
+INFO: Can't import python Crypto lib. Disabled certificate manipulation tools
+Welcome to Scapy (2.2.0)
+>>>
+So, more installing it is then..
+
+Installing optional libraries
+
+To get rid of the info notifications and to be able to use all of the nice 
+features the following libraries need to be installed: gnuplot-py, pycrypto and PyX. 
+And here’s how to do that.
+
+Download and install the latest source of ‘gnuplot-py’ (1.8 during writing):
+
+$ tar xfz gnuplot-py-1.8.tar
+$ cd gnuplot-py-1.8
+$ sudo python setup.py install
+Download and install the latest source of ‘pycrypto’ (2.6.1 during writing):
+
+$ wget http://ftp.dlitz.net/pub/dlitz/crypto/pycrypto/pycrypto-2.6.1.tar.gz
+$ tar xfz pycrypto-2.6.1.tar.gz
+$ cd pycrypto-2.6.1
+$ sudo python setup.py install
+Download and install the latest source of ‘PyX’ (0.12.1 during writing):
+
+$ tar xfz PyX-0.12.1.tar.gz
+$ cd PyX-0.12.1
+$ sudo python setup.py install
+All the necessities should be installed now and Scapy should run without 
+any major errors or warnings (besides the warning about IPv6 route, but that’s 
+because I haven’t set IPv6 on this machine). Enjoy your new toy.
+
+Posted by Juha Laaksonen Dec 11th, 2013   Mac OS X, Python, Scapy, Unix
+______________________________________________________________________________
+
+
