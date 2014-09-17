@@ -1,5 +1,3 @@
-***
-
 Learning Python Sep 16, 2014
 ===============
 
@@ -15,6 +13,8 @@ but I did run/test most of it and made corrections.
 > Guess what ... every year has the same month/day, well, except Feb. 
 > How can anyone know that what they are reading is even remotely relevant.
 > Is it really that difficult to add a full date.
+
+***
 
 ### multiprocessing
 
