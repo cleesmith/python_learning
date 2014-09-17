@@ -1,7 +1,7 @@
 Learning Python
 ===============
 
-## Learning python by example from blogs/tutorials
+## via half-baked (all too often) code from blogs/tutorials
 
 ### picamera
 
