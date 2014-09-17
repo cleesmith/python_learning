@@ -31,9 +31,10 @@ use multiprocessing to create a temporary daemon to handle the sending of each
 image, so the main program can resume motion detection more quickly -- i.e.
 less latency.
 
-> Note that this setup is **not very secure**, but hey, I'm mostly watching 
-the neigbor's cat prowl around for food, yes, I fed it once and now we have a "relationship".  
-Not a lot of evil doers up here in the mountains. 
+> Note that this setup is **not very secure**, but hey, there's not a lot of evil 
+doers up here in the mountains so I'm mostly watching 
+the neigbor's cat prowl around for food. 
+Yes, I fed it once so now we have a "relationship", or that's how she sees it.
 But it's a fun project to justify spending $40 on a raspberry pi.
 Yes, I did spend $60 on a Banana Pi (BPi) which just sits over there blinking, but 
 it can have a real sata drive attached ... if I ever get to that project. I'm
