@@ -24,7 +24,7 @@ course, there's always one child who fails to launch ;)
 
 ### picamera
 
-Mostly this is about learning how to use picamera for a Raspberry Pi. 
+Mostly this is about learning how to use picamera for a Raspberry Pi (RPi). 
 To create a working motion detector which uses tcp to stream images to another server.
 This will avoid creating/deleting images on the sd card.  Perhaps I could
 use multiprocessing to create a temporary daemon to handle the sending of each
@@ -34,7 +34,7 @@ less latency.
 > Note that this setup is **not very secure**, but hey, I'm mostly watching 
 a cat that's prowling around for food.  Not a lot of evil doers up here in 
 the mountains. But it's a fun project to justify spending $40 on a raspberry pi.
-Yes, I did spend $60 on a Banana Pi which just sits over there blinking, but 
+Yes, I did spend $60 on a Banana Pi (BPi) which just sits over there blinking, but 
 it can have a real sata drive attached ... if I ever get to that project. I'm
 fairly certain that super bright green led on the BPi is hailing the mothership.
 
