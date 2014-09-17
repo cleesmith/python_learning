@@ -1,4 +1,4 @@
-Learning Python Sep 16, 2014
+Sep 16, 2014 Learning Python
 ===============
 
 A lot of this code is *half-baked*, all too often, from blogs/tutorials/such,
