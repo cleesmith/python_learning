@@ -29,12 +29,18 @@ it can have a real sata drive attached ... if I ever get to that project.
 
 Looks interesting to work alongside snort: reading pcap's, sniffing, etc.
 
+### flask
+
+It's sort of, kind of like ruby on rails.
+I'm leaning more towards flask than django (reminds me of violent movie).
+Currently I'm learning flask via videos like this:
+https://www.youtube.com/watch?v=AeI_rBeZmwg&list=UUt7yOnL7bI7yCa1Xe_GTjJQ
+
 ### curiosities:
 
 * **google drive** ... doesn't work well when automated as it seems a user must present, and I even tried using a **service account** without luck ... this is a tough nut, but I guess I could use **grive**
 * **pgist** ... for command line, but could be forked for use in a program which would be nice to upload a **.geojson** file to a gist which creates a map automagically
 * **mysql** ... seems there are way too many db connectors
-* **flask** ... sort of, kind of like ruby on rails ... leaning more towards flask than django (assuming it's like the movie)
 * **pygeoip** ... lookup IP's in GeoLiteCity.dat to get lat/lng/country
 * **email** ... simple smtp send mail
 * **elasticsearch** ... for fast indexing/searching
