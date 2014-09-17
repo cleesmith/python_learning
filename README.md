@@ -9,7 +9,8 @@ but I did run/test most of it and made corrections.
 > Hey, look at that, a date right there in the title. 
 > Good idea, huh?  
 > So much stuff on the internet does not have a date. 
-> Even worse some blogs just have a month and day. 
+> Even worse some blogs just have a month and day.
+> Guess what ... every year has the same month/day, well, except Feb. 
 > How can anyone know that what they are reading is even remotely relevant.
 > Is it really that difficult to add a full date.
 
