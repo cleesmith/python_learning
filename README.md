@@ -25,7 +25,7 @@ the mountains.
 
 ### scapy
 
-Looks interesting to work alongside snort.
+Looks interesting to work alongside snort: reading pcap's, sniffing, etc.
 
 ### curiosities:
 
