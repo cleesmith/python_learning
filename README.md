@@ -15,7 +15,7 @@ course, there's always one child who fails to launch ;)
 Mostly this is about learning how to use picamera for a Raspberry Pi. 
 To create a working motion detector which uses tcp to stream images to another server.
 This will avoid creating/deleting images on the sd card.  Perhaps I could
-use multiprocessing to a temporary daemon to handle the sending of each
+use multiprocessing to create a temporary daemon to handle the sending of each
 image, so the main program can resume motion detection more quickly -- i.e.
 less latency.
 
