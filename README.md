@@ -42,7 +42,8 @@ Regardless, it's a fun project to justify spending $40 on a raspberry pi.
 Yes, I did spend $60 on a Banana Pi (BPi) which just sits over there blinking, but 
 it can have a real sata drive attached ... if I ever get to that project. I'm
 fairly certain that super bright green led on the BPi is hailing the mothership
-... look aliens, how's about finding another planet to probe, we're all probed up here.
+... look aliens, how's about finding another planet to probe, we're all probed up here
+and running low on probe goo.
 
 ### scapy
 
