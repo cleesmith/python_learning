@@ -30,7 +30,7 @@ Looks interesting to work alongside snort.
 ### curiosities:
 
 * **google drive** ... doesn't work well when automated as it seems a user must present, and I even tried using a **service account** without luck ... this is a tough nut, but I guess I could use **grive**
-* **pgist** ... for command line, but could be forked for use in a program which would be nice to upload a **.geojson** file to a gist for mapping
+* **pgist** ... for command line, but could be forked for use in a program which would be nice to upload a **.geojson** file to a gist which creates a map automagically
 * **mysql** ... seems there are many db connectors
 * **flask** ... sort of, kind of like ruby on rails
 * **pygeoip** ... lookup IP's in GeoLiteCity.dat to get lat/lng/country
