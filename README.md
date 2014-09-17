@@ -11,7 +11,7 @@ but I did run/test most of it and made corrections.
 > So much stuff on the internet does not have a date. 
 > Even worse some blogs just have a month and day.
 > Guess what ... every year has the same month/day, well, except Feb. 
-> How can anyone know that what they are reading is even remotely relevant.
+> How can anyone know that what they are reading is even remotely up-to-date.
 > Is it really that difficult to add a full date.
 
 ***
