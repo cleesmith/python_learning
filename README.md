@@ -1,7 +1,7 @@
 Learning Python
 ===============
 
-A lot of this code is __half-baked__, all too often, from blogs/tutorials/such.
+A lot of this code is *half-baked*, all too often, from blogs/tutorials/such.
 
 ### picamera
 
