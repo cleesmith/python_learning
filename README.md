@@ -1,10 +1,12 @@
+***
+
 Learning Python Sep 16, 2014
 ===============
 
 A lot of this code is *half-baked*, all too often, from blogs/tutorials/such,
 but I did run/test most of it and made corrections. 
 
-> Warning: mini-rant:
+> Warning ... mini-rant:
 >
 > Hey, look at that, a date right there in the title. 
 > Good idea, huh?  
@@ -56,3 +58,8 @@ https://www.youtube.com/watch?v=AeI_rBeZmwg&list=UUt7yOnL7bI7yCa1Xe_GTjJQ
 * **email** ... simple smtp send mail
 * **elasticsearch** ... for fast indexing/searching
 * **matplotlib** ... plotting
+
+Love the language Ruby, but is there anything Python doesn't provide as a package, and the 
+syntax sure is simple to learn. Once you get the knack of that indentation thing.
+
+***
