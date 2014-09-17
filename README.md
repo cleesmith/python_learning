@@ -32,7 +32,7 @@ Looks interesting to work alongside snort: reading pcap's, sniffing, etc.
 ### flask
 
 It's sort of, kind of like ruby on rails.
-I'm leaning more towards flask than django (reminds me of violent movie).
+I'm leaning more towards flask than django (reminds me of a violent movie).
 Currently I'm learning flask via videos like this:
 https://www.youtube.com/watch?v=AeI_rBeZmwg&list=UUt7yOnL7bI7yCa1Xe_GTjJQ
 
