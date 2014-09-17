@@ -22,6 +22,8 @@ less latency.
 > Note that this setup is **not very secure**, but hey, I'm mostly watching 
 a cat that's prowling around for food.  Not a lot of evil doers up here in 
 the mountains. But it's a fun project to justify spending $40 on a raspberry pi.
+Yes, I did spend $60 on a Banana Pi which just sits over there blinking, but 
+it can have a real sata drive attached ... if I ever get to that project.
 
 ### scapy
 
