@@ -38,7 +38,8 @@ Yes, I fed it once so now we have a "relationship", or that's how she sees it.
 Regardless, it's a fun project to justify spending $40 on a raspberry pi.
 Yes, I did spend $60 on a Banana Pi (BPi) which just sits over there blinking, but 
 it can have a real sata drive attached ... if I ever get to that project. I'm
-fairly certain that super bright green led on the BPi is hailing the mothership.
+fairly certain that super bright green led on the BPi is hailing the mothership
+... why can't the aliens find another planet to probed.
 
 ### scapy
 
