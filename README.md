@@ -35,7 +35,7 @@ less latency.
 doers up here in the mountains so I'm mostly watching 
 the neigbor's cat prowl around for food. 
 Yes, I fed it once so now we have a "relationship", or that's how she sees it.
-But it's a fun project to justify spending $40 on a raspberry pi.
+Regardless, it's a fun project to justify spending $40 on a raspberry pi.
 Yes, I did spend $60 on a Banana Pi (BPi) which just sits over there blinking, but 
 it can have a real sata drive attached ... if I ever get to that project. I'm
 fairly certain that super bright green led on the BPi is hailing the mothership.
