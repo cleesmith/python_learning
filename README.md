@@ -14,6 +14,8 @@ but I did run/test most of it and made corrections.
 > How can anyone know that what they are reading is even remotely up-to-date.
 > Is it really that difficult to add a full date in an article; at the 
 > beginning or the end, it doesn't matter, come on, we can do this.
+> Books have publication dates, so I'm pretty sure no one was struggling 
+> with Moby Dick yesterday.
 
 ***
 
