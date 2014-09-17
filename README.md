@@ -8,7 +8,7 @@ but I did run/test most of it and made corrections.
 
 Read that as **fork**, but it still looks useful if one remains
 mindful of the consequences of launching too many children. Of 
-course, there's always one child which fails to launch ;)
+course, there's always one child who fails to launch ;)
 
 ### picamera
 
