@@ -18,5 +18,6 @@ Looks interesting to work alongside snort.
 
 ### multiprocessing
 
-Read that as **fork** looks useful.
+Read that as **fork**, but it still looks useful if one remains
+mindful of the consequences of launching too many children.
 
