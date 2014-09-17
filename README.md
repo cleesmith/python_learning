@@ -66,7 +66,8 @@ https://www.youtube.com/watch?v=AeI_rBeZmwg&list=UUt7yOnL7bI7yCa1Xe_GTjJQ
 * **matplotlib** ... plotting
 
 Love the language Ruby, but is there anything Python doesn't provide as a package, and the 
-syntax sure is simple to learn. Once you get the knack of that indentation/colon thing. 
-Not to mention that it's already installed just about everywhere, even on a RPi/BPi.
+syntax sure is simple to learn. Once you get the knack of that indentation/colon thing.
+Maybe they could call it colodent or indentolon, you known, something that really sticks with you.
+Plus the it's already installed just about everywhere, even on a RPi/BPi ... in my toothbrush?
 
 ***
