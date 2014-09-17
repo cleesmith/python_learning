@@ -19,7 +19,8 @@ image, so the main program can resume motion detection more quickly -- i.e.
 less latency.
 
 > Note that this setup is **not very secure**, but hey, I'm mostly watching 
-a cat that's prowling around for food.
+a cat that's prowling around for food.  Not a lot of evil doers up here in 
+the mountains.
 
 ### scapy
 
