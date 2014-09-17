@@ -67,7 +67,7 @@ https://www.youtube.com/watch?v=AeI_rBeZmwg&list=UUt7yOnL7bI7yCa1Xe_GTjJQ
 
 Love the language Ruby, but is there anything Python doesn't provide as a package, and the 
 syntax sure is simple to learn. Once you get the knack of that indentation/colon thing.
-Maybe they could call it colodent or indentolon, you known, something that really sticks with you.
+Maybe they could call it colodent or indentolon, you know, something that really sticks in the cranium.
 Plus the it's already installed just about everywhere, even on a RPi/BPi ... in my toothbrush?
 
 ***
